@@ -20,12 +20,12 @@ function App () {
             </li>
             <li className='nav-item'>
               <NavLink to='/animal/Marketplace' className='nav-link' activeClassName='active'>
-                Barksalot
+                Marketplace
               </NavLink>
             </li>
             <li className='nav-item'>
               <NavLink to='/animal/Designers' className='nav-link' activeClassName='active'>
-                Purrsloud
+                Designers
               </NavLink>
             </li>
             <li className='nav-item'>
