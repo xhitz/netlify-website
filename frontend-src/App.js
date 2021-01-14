@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter, Route, Link, NavLink, Switch } from 'react-router-dom'
 import Home from './components/Home'
-import Animal from './components/Animal'
+import Animal from './components/NFT'
 import About from './components/About'
 import Secret from './components/Secret'
 
@@ -14,17 +14,17 @@ function App () {
           <h1 className='display-1'>SydTek</h1>
           <ul className='nav nav-tabs'>
             <li className='nav-item'>
-              <NavLink to='/animal/Drops' className='nav-link' activeClassName='active'>
+              <NavLink to='/nft/Drops' className='nav-link' activeClassName='active'>
                 Drops
               </NavLink>
             </li>
             <li className='nav-item'>
-              <NavLink to='/animal/Marketplace' className='nav-link' activeClassName='active'>
+              <NavLink to='/nft/Marketplace' className='nav-link' activeClassName='active'>
                 Marketplace
               </NavLink>
             </li>
             <li className='nav-item'>
-              <NavLink to='/animal/Designers' className='nav-link' activeClassName='active'>
+              <NavLink to='/nft/Designers' className='nav-link' activeClassName='active'>
                 Designers
               </NavLink>
             </li>
@@ -39,7 +39,7 @@ function App () {
 
       <div className='container py-3 py-md-5'>
         <Switch>
-          <Route path='/animal/:name'>
+          <Route path='/nft/:name'>
             <Animal />
           </Route>
           <Route path='/secret'>
